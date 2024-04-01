@@ -1,5 +1,5 @@
-@mixin large {
-    @media (max-width: 1366px) {
+@mixin small {
+    @media (max-width: 738px) {
         @content;
     }
 }
@@ -10,8 +10,8 @@
     }
 }
 
-@mixin small {
-    @media (max-width: 738px) {
+@mixin large {
+    @media (max-width: 1366px) {
         @content;
     }
 }
